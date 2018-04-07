@@ -1,0 +1,31 @@
+/* Base Application Styles */
+$color:blue;
+body {
+  color: #fff;
+}
+h1{
+  margin:0px;
+  padding:0px;
+}
+#mainapp{
+  height:100%;
+  background:#ddd;
+  .homenav{
+    color:#333;
+    text-align: center;
+    line-height:40px;
+  }
+  .homenavlist{
+    display: flex;
+    align-items: center;
+    background:#333;
+    .href_go{
+      padding:10px 20px;
+      color:$color;
+      font-size:18px;
+      margin-right:20px;
+      cursor: pointer;
+      border-right:1px solid #ddd;
+    }
+  }
+}
