@@ -7,7 +7,6 @@ import StateAndLife from './State_and_life_cycle/index';
 import {NavLink} from 'react-router-dom';
 import {BrowserRouter as Router , Route} from 'react-router-dom';
 //let yeomanImage = require('../images/yeoman.png');
-
 class AppComponent extends React.Component {
   render() {
     return (
